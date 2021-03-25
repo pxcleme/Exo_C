@@ -3,6 +3,7 @@
 #include<stdlib.h>
 float t[3][4];
 float m[3];
+
 int main()
 {
 
@@ -10,9 +11,11 @@ int main()
     float tot=0;
     float note;
 
-
-    do
+	printf ("mettre 0 pour stop la saisie\n");
+	
+	do
     {
+    	
         printf("mettre une note:\n");
         scanf("%f",&note);
         tot = tot+note;
